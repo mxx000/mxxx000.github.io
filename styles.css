@@ -1,0 +1,32 @@
+.head{
+    background-color: rgb(26, 24, 23);
+    width: 300;
+}
+.gallery{
+    width: 300px;
+    padding: 50px;
+    color: rgb(216, 136, 75);
+    font-family: poppins;
+    text-decoration: underline;
+    
+    font-size: 250%;
+    
+}
+.container{
+    background-color: bisque;
+    
+}
+.container h1 {
+    color:firebrick;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+h3{
+    color: brown;
+
+    font-size: 20px;
+    padding: 20px;
+    border: 200;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact me</title>
+    <style>
+        form{
+            background-color: blanchedalmond;
+        }
+        legend{
+            color: goldenrod;
+            font-weight: bold;
+            font-size: 20px;
+        
+        }
+        input:focus{
+            color: rgb(221, 190, 143);
+            border: 5px solid;
+            background-color: rgb(178, 202, 226);
+        }
+        textarea:focus{
+            color: rgb(221, 190, 143);
+            border: 5px solid;
+            background-color: rgb(178, 202, 226);
+        }
+        body{
+            font-family: 'poppins'; font-size: 24px;
+        }
+        .head{
+    background-color: rgb(26, 24, 23);
+    width: 300;
+}
+.gallery{
+    width: 300px;
+    padding: 50px;
+    color: rgb(216, 136, 75);
+    font-family: poppins;
+    text-decoration: underline;
+    
+    font-size: 150%;
+    
+}
+    </style>
+   <link rel="shortcut icon" href="logo.png" type="image/x-icon"> 
+</head>
+<body>
+    <div class="head">
+        <img src="logo.png" alt="">
+        <a class="gallery" href="home-page.html">Home </a>
+        <a class="gallery" href="contact.html">Contact Me </a>
+        <a class="gallery" href="about-me.html">About Me </a>
+        <a class="gallery" href="achievement.html">Achievements</a>
+    </div>
+
+
+    <form>
+        <fieldset>
+            <legend>Login Details</legend>
+            <label for="Name">Nikename: </label>
+            <input type="text" id="name" placeholder="Enter your username" required><br><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" placeholder="example@email.com" required>
+            <p>Message: </p>
+            <textarea name="comments" id="" cols="30" rows="4">Enter a message...</textarea> <br><br>
+            <input type="submit" value="message">
+            
+        </fieldset>
+    </form>
+</body> 
+</html>
